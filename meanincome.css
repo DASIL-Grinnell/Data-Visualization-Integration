@@ -1,0 +1,127 @@
+#grinnell-header {
+    display: block;
+    background: repeat scroll 0% 0% #000;
+    height: 40px;
+    width: 101%;
+    clear: both;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 300;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+#grinnell-logo {
+    margin-left: 9px;
+}
+
+#chart {
+    display: inline-block;
+}
+
+.rickshaw_graph {
+    position: relative;
+}
+
+.richshaw_graph svg {
+    display: block;
+    overflow: hidden;
+}
+
+#side_panel {
+    margin: 0px 20px 20px 0px;
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1 {
+   font-family: "Roboto Condensed", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+   font-size: 40px;
+   font-weight: 400;
+   line-height: 1.2;
+}
+
+.toggle-bar a {
+    color: #B7BBBF;
+    text-decoration: none;
+}
+
+#DASIL-menu {
+   background: none repeat scroll 0% 0% #383F49;
+   position: fixed;
+   top: 0px;
+   height: 100%;
+   width: 15%;
+   padding: 90px 2% 2%;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   z-index: 100;
+   transform: translate(0px, 40px);
+   display: block;
+   margin-left: -10px;
+   margin-top: -10px;
+}
+
+.toggle-bar {
+    background: none repeat scroll 0% 0% #30353C;
+    display: inline-block;
+    margin: 0px;
+    margin-left: -10px;
+    margin-top: 20px;
+    padding: 8px 30px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 200;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvitica, Arial, sans-serif;
+    font-size: 100%;
+    vertical-align: center;
+}
+
+.toggle-bar li {
+    list-style-type: none;
+    color: #B7BBBF;
+    display: inline-block;
+    padding-top: 25px;
+    padding-down: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    list-style: outside none square;
+    list-style-image: none;
+    list-style-position: outside;
+    left-margin: 50%;
+}
+
+.toggle-bar a:hover, .toggle-bar a.current {
+    #80858A;
+}
+
+.content {
+    position: relative;
+    width: 80%;
+    float: right;
+
+}
+
+#side-panel {
+    margin: 0px 20px 20px 0px;
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#chart_container {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+
