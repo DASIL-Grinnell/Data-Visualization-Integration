@@ -16,6 +16,19 @@
     margin-left: 9px;
 }
 
+#title {
+    font-family: Franklin Gothic Medium, UnDotum, Helvetica, Arial;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.entry-content {
+   font-size: 20px;
+   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   display: inline-block;
+   vertical-align: top;
+}
+
 #chart {
     display: inline-block;
 }
@@ -36,7 +49,8 @@
     vertical-align: top;
 }
 
-h1 {
+
+#main-title {
    font-family: "Roboto Condensed", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
    font-size: 40px;
    font-weight: 400;
