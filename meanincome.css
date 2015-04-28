@@ -1,20 +1,3 @@
-#grinnell-header {
-    display: block;
-    background: repeat scroll 0% 0% #000;
-    height: 40px;
-    width: 101%;
-    clear: both;
-    position: fixed;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    z-index: 300;
-    margin-top: -10px;
-    margin-left: -10px;
-}
-
-#grinnell-logo {
-    margin-left: 9px;
-}
 
 #title {
     font-family: Franklin Gothic Medium, UnDotum, Helvetica, Arial;
@@ -29,18 +12,6 @@
    vertical-align: top;
 }
 
-#chart {
-    display: inline-block;
-}
-
-.rickshaw_graph {
-    position: relative;
-}
-
-.richshaw_graph svg {
-    display: block;
-    overflow: hidden;
-}
 
 #side_panel {
     margin: 0px 20px 20px 0px;
@@ -67,9 +38,9 @@
 #DASIL-menu {
    background: none repeat scroll 0% 0% #383F49;
    position: fixed;
-   top: 0px;
+   top: 0;
    height: 100%;
-   width: 15%;
+   width: 16%;
    padding: 90px 2% 2%;
    overflow-y: scroll;
    overflow-x: hidden;
@@ -77,7 +48,7 @@
    transform: translate(0px, 40px);
    display: block;
    margin-left: -10px;
-   margin-top: -10px;
+
 }
 
 .toggle-bar {
@@ -85,26 +56,26 @@
     display: inline-block;
     margin: 0px;
     margin-left: -10px;
-    margin-top: 20px;
     padding: 8px 30px;
     position: fixed;
     left: 0px;
     top: 0px;
-    width: 100%;
+    width: 90%;
     z-index: 200;
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvitica, Arial, sans-serif;
+    font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 100%;
     vertical-align: center;
+    overflow: hidden;
 }
 
 .toggle-bar li {
     list-style-type: none;
     color: #B7BBBF;
     display: inline-block;
-    padding-top: 25px;
     padding-down: 25px;
     padding-left: 20px;
     padding-right: 20px;
+    list-style:none;
 }
 
 .main-navigation a {
@@ -116,6 +87,10 @@
     font-family: "Roboto Condensed", "Helvetica Neue", Helvitica, Arial, sans-serif;
 }
 
+#menu-mainmenu, .menu-item, .menu-item{
+    list-style: none;
+}
+
 
 ul {
     list-style: outside none square;
@@ -125,7 +100,7 @@ ul {
 }
 
 .toggle-bar a:hover, .toggle-bar a.current {
-    #80858A;
+    color-text: #80858A;
 }
 
 .content {
@@ -142,10 +117,24 @@ ul {
     vertical-align: top;
 }
 
-#chart_container {
+#includedContent {
     position: relative;
     display: inline-block;
+    width: 80%;
+    height: 100%;
+    float: right;
 }
+iframe[seamless] {
+    border: none;
+    float: right;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+
 
 
 
