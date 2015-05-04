@@ -31,3 +31,8 @@
     border-radius: 10px;
     text-shadow: none;
 }
+
+body {
+ height: 100%;
+
+}
